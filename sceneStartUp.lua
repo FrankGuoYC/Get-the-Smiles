@@ -38,21 +38,23 @@ function scene:show( event )
 
     if ( phase == "will" ) then
         -- Called when the scene is still off screen (but is about to come on screen)
-        bg = display.newImageRect( "pic/bg_startUp.png" , display.contentWidth * 1.2, display.contentHeight * 1.2 )
+        bg = display.newImageRect( "pic/bg_startup.png" , display.contentWidth * 1.2, display.contentHeight * 1.2 )
         bg.x, bg.y = display.contentCenterX, display.contentCenterY
         sceneGroup:insert(bg)
 
-        title = display.newText( "Lua Project", display.contentCenterX, display.contentCenterY, "Arial" , 60 )
-        sceneGroup:insert(title)
+        -- title = display.newText( "Get the Smiles", display.contentCenterX, display.contentCenterY, "Agency FB" , 60 )
+        -- title:setFillColor( 1, 1, 0 )
+        -- title:rotate(-45)
+        -- sceneGroup:insert(title)
 
-        logo = display.newText( "程式語言 第23組", display.contentWidth - 100, display.contentHeight - 40 ,"Microsoft JhengHei" , 20 )
-        sceneGroup:insert(logo)
+        -- logo = display.newText( "程式語言 第23組", display.contentWidth - 100, display.contentHeight - 40 ,"Microsoft JhengHei" , 20 )
+        -- sceneGroup:insert(logo)
 
     elseif ( phase == "did" ) then
         -- Called when the scene is now on screen
         -- Insert code here to make the scene come alive
         -- Example: start timers, begin animation, play audio, etc.
-        timer.performWithDelay( 1500, toMenu )
+        timer.performWithDelay( 1800, toMenu )
     end
 end
 
