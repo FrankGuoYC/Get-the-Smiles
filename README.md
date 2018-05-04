@@ -5,7 +5,7 @@
 >* Tools: [Corona SDK](https://coronalabs.com/)
 
 ## 遊戲下載
-點[這裡](release/Get_the_Smiles.apk?raw=true)可以下載遊戲
+點[這裡](release/Get_the_Smiles.apk?raw=true)可以下載遊戲(Android Apk)
 
 ## 遊戲操作說明
 * 笑臉會在隨機位置出現。點擊笑臉可以獲得Combo數，若成功抓到一個笑臉則combo數+1，如果miss掉則combo數-1。越到後面笑臉出現速度會越來越快。
